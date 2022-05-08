@@ -136,10 +136,12 @@
 				}
 			}
 
+                function saveXSLX(){
 		workbook.xlsx.writeBuffer().then((data)=>{
 			const blob2 = new Blob ([data], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8'});
 			saveAs(blob2, fileName);
 			});
+                }
 
 
 
@@ -152,8 +154,8 @@
 
 	</script>
 	<input type="file" name="xlsxfile" accept=".xlsx" id="fileItem" onchange="loadFile()" name="upload XLSX">
-<!-- 	<button name="save" onchange="saveXSLX()"> save file</button>
- -->
+ 	<button name="save" onchange="saveXSLX()"> save file</button>
+
 	Hello World 
 </body>
 </html>
