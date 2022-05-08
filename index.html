@@ -136,16 +136,22 @@
 				}
 			}
 
+              /*  function saveXL(){
+		workbook.xlsx.writeBuffer().then((data)=>{
+			const blob2 = new Blob ([data], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8'});
+			saveAs(blob2, fileName);
+			});
+                } */
+
+
+
+		}
                 function saveXL(){
 		workbook.xlsx.writeBuffer().then((data)=>{
 			const blob2 = new Blob ([data], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8'});
 			saveAs(blob2, fileName);
 			});
                 }
-
-
-
-		}
 
 		
 
@@ -154,7 +160,7 @@
 
 	</script>
 	<input type="file" name="xlsxfile" accept=".xlsx" id="fileItem" onchange="loadFile()" name="upload XLSX">
- 	<button name="save" onchange="loadFile.saveXL()"> save file </button>
+ 	<button name="save" onchange="saveXL()"> save file </button>
 
 </body>
 </html>
