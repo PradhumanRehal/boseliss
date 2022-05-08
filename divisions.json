@@ -1,0 +1,76 @@
+area_data = {
+	"1":{
+		"division":"nabha",
+		"sevadar": "lalit_das",
+		"areas":["nabha","naba","ਨਾਭਾ","patiala gate", "boran gate","bauran gate", "mehas gate","mehs gate", "duladi gate","duladdi gate","alohran gate",
+			"hira mahal","147201","147202","dadrala kharoud","bhadson","akalgarh","tohra","kalemajra","diwangarh","sholi"
+		]
+	},
+	"2":{
+		"division":"samana/patran",
+		"sevadar": "harjinder_das",
+		"areas":["samana","patran","ghagga","shutrana","ਸਮਾਣਾ","ਪਾਤੜਾਂ","kutbanpur","fatha majri","patra","ਪਾਤਰਾਂ","dugal khurd","dugal kalan","karhali","amamnagar"
+		]
+	},
+	"3":{
+		"division":"rajpura",
+		"sevadar": "tejinder_das",
+		"areas":["rajpura","raj pura","राजपुरा","ਰਾਜਪੁਰਾ","ghanaur","ghanor","ਘਨੌਰ","घनौर","nabha power","kauli","140701","thermal plant","mandauli","140401"
+			,"gazipur","mirazapur"
+		]
+	},
+	"4":{
+		"division":"patiala_bus_stand",
+		"sevadar": "sitaram_das",
+		"areas":["sst nagar","bishan nagar","gurbax colony","dmw","dcw","lahori gate","hira bagh","hira bag","hira baag"]
+	},
+
+	"5":{
+		"division":"patiala_sanaur",
+		"sevadar": "harinder das",
+		"areas":["sanaur","sanour","markal colony","sanauri adda","tej bagh colony","sanaor"]
+	},
+
+	"6":{
+		"division":"patiala_university_area",
+		"sevadar": "jyoti das",
+		"areas":["urban estate","phase 2","punjabi university","ਯੂਨੀਵਰਸਿਟੀ","chappar","bahadurgarh","bir bahadurgarh","raipur mandalan","raipur mandanla"]
+	},
+
+	"7":{
+		"division":"patiala_nabha_road",
+		"sevadar": "bechu das",
+		"areas":["tripuri","thapar","power colony","bhadson road","top khana gate","dharampura","jorian bhatian","doma wali gali","arna barna","top khana",
+			,"gher sodian","sirhindi bazar","rauni","kalyan","afsar colony","factory area","mohindra college","nabha road","147004","ranjit nagar","model town","jagat pura"
+			,"jagatpura","badungar","guru nanak nagar","dhanoura","dharmpura","ahluwalia street","ahluwalia road"
+		]
+	},
+
+	"8":{
+		"division":"patiala_dakala_area",
+		"sevadar":"palwinder das",
+		"areas":["dakala","kheri gujran","sular","sullar","ਸੁਲਰ","ਸੁਲਾਰ","manjal kala","manjal kalan","panjola"]
+	},
+
+	"9":{
+		"division":"patiala_pasiana_area",
+		"sevadar":"raghuvir das",
+		"areas":["pasiana","pasina","samana road","sangrur road","tarapore gate","rajendra road","tarapur gate","dhakraba"]
+
+	},
+
+	"10":{
+		"division":"patiala_devigarh_area",
+		"sevadar":"bintu das",
+		"areas":["devigarh","ਦੇਵੀਗੜ੍ਹ","dudhan sadhan","dudhan","massingan","kapoori","ਕਪੂਰੀ","ganeshpur","ਦੀਵਾਨਵਾਲਾ","diwanwala","ghuram","ਘੁਰਮ","gharam"]
+	},
+
+	"11":{
+		"division":"patiala_sirhind_road",
+		"sevadar":"rajesh das",
+		"areas":["sirhind road","alipur","allipur","seona","ghuman nagar","bachittar nagar",
+			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point"]
+	}
+
+
+}
