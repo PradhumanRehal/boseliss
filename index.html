@@ -77,7 +77,7 @@
 			//console.log(fileInput[0]);
 			var files = fileInput.files[0];	
 			var fileName = files.name;
-                        window.alert(fileName);
+                      //  window.alert(fileName);
 			console.log(files, files.name);
 
 			const blob = new Blob([files], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8' });
@@ -137,11 +137,13 @@
 				}
 			}
 
-                
+                function saveXl(){
+                window.alert("in savexl");
 		workbook.xlsx.writeBuffer().then((data)=>{
 			const blob2 = new Blob ([data], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8'});
 			saveAs(blob2, fileName);
 			});
+                 } // SaveXl
                 
 
 
@@ -149,6 +151,7 @@
 		} 
 /*        END OF LOADFILE FN           */
 /*                function saveXL(){
+
 		workbook.xlsx.writeBuffer().then((data)=>{
 			const blob2 = new Blob ([data], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8'});
 			saveAs(blob2, fileName);
@@ -162,7 +165,7 @@
 
 	</script>
 	<input type="file" name="xlsxfile" accept=".xlsx" id="fileItem" onchange="loadFile()" name="upload XLSX">
- 	
-   Edited 9:19
+ 	<button onClick=saveXl()>save</button>
+   Edited 9:29
 </body>
 </html>
