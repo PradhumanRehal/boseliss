@@ -138,13 +138,13 @@
 				}
 			}
 
-                function saveXl(){
-                window.alert("in savexl");
+              //  function saveXl(){
+              //  window.alert("in savexl");
 		workbook.xlsx.writeBuffer().then((data)=>{
 			const blob2 = new Blob ([data], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8'});
 			saveAs(blob2, fileName);
 			});
-                 } // SaveXl
+             //    } // SaveXl
                 
 
 
@@ -166,7 +166,7 @@
 
 	</script>
 	<input type="file" name="xlsxfile" accept=".xlsx" id="fileItem" onchange="loadFile()" name="upload XLSX">
- 	<button onClick=loadFile.saveXl()>save</button>
-   Edited 9:12pm
+ 	
+   Edited 9:15pm
 </body>
 </html>
