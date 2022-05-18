@@ -3,21 +3,21 @@ area_data = {
 		"division":"nabha",
 		"sevadar": "lalit_das",
 		"areas":["nabha","naba","ਨਾਭਾ","patiala gate", "boran gate","bauran gate", "mehas gate","mehs gate", "duladi gate","duladdi gate","alohran gate",
-			"hira mahal","147201","147202","dadrala kharoud","bhadson","tohra","kalemajra","diwangarh","sholi"
+			"hira mahal","147201","<147201>","147202","<147202>","dadrala kharoud","bhadson","tohra","kalemajra","diwangarh","sholi"
 		]
 	},
 	"2":{
 		"division":"samana/patran",
 		"sevadar": "harjinder_das",
 		"areas":["samana","patran","ghagga","shutrana","ਸਮਾਣਾ","ਪਾਤੜਾਂ","kutbanpur","fatha majri","patra","ਪਾਤਰਾਂ","dugal khurd","dugal kalan","karhali","amamnagar","147101",
-			"147105"
+			"147105","<147101>","<147105>"
 		]
 	},
 	"3":{
 		"division":"rajpura",
 		"sevadar": "tejinder_das",
 		"areas":["rajpura","raj pura","राजपुरा","ਰਾਜਪੁਰਾ","ghanaur","ghanor","ਘਨੌਰ","घनौर","nabha power","kauli","140701","thermal plant","mandauli","140401"
-			,"gazipur","mirazapur"
+			,"gazipur","mirazapur","<140401>"
 		]
 	},
 	"4":{
@@ -29,13 +29,15 @@ area_data = {
 	"5":{
 		"division":"patiala_sanaur",
 		"sevadar": "harinder_das",
-		"areas":["sanaur","sanour","markal colony","sanauri adda","tej bagh colony","sanaor","147103"]
+		"areas":["sanaur","sanour","markal colony","sanauri adda","tej bagh colony","sanaor","147103","<147103>"]
 	},
 
 	"6":{
 		"division":"patiala_university_area",
 		"sevadar": "jyoti_das",
-		"areas":["urban estate","phase 2","punjabi university","ਯੂਨੀਵਰਸਿਟੀ","chappar","bahadurgarh","bir bahadurgarh","raipur mandalan","raipur mandanla"]
+		"areas":["urban estate","phase 2","punjabi university","ਯੂਨੀਵਰਸਿਟੀ","chappar","bahadurgarh","bir bahadurgarh","raipur mandalan","raipur mandanla"
+			,"147021","<147021>"
+		]
 	},
 
 	"7":{
@@ -43,7 +45,7 @@ area_data = {
 		"sevadar": "bechu_das",
 		"areas":["tripuri","thapar","power colony","bhadson road","top khana gate","dharampura","jorian bhatian","doma wali gali","arna barna","top khana",
 			,"gher sodian","sirhindi bazar","rauni","kalyan","afsar colony","factory area","mohindra college","nabha road","147004","ranjit nagar","model town","jagat pura"
-			,"jagatpura","badungar","guru nanak nagar","dhanoura","dharmpura","ahluwalia street","ahluwalia road"
+			,"jagatpura","badungar","guru nanak nagar","dhanoura","dharmpura","ahluwalia street","ahluwalia road","<147004>"
 		]
 	},
 
@@ -63,7 +65,9 @@ area_data = {
 	"10":{
 		"division":"patiala_devigarh_area",
 		"sevadar":"bintu_das",
-		"areas":["devigarh","ਦੇਵੀਗੜ੍ਹ","dudhan sadhan","dudhan","massingan","kapoori","ਕਪੂਰੀ","ganeshpur","ਦੀਵਾਨਵਾਲਾ","diwanwala","ghuram","ਘੁਰਮ","gharam","147111"]
+		"areas":["devigarh","ਦੇਵੀਗੜ੍ਹ","dudhan sadhan","dudhan","massingan","kapoori","ਕਪੂਰੀ","ganeshpur","ਦੀਵਾਨਵਾਲਾ","diwanwala","ghuram","ਘੁਰਮ","gharam","147111"
+			,"<147111>"
+		]
 	},
 
 	"11":{
