@@ -9,7 +9,8 @@ area_data = {
 	"2":{
 		"division":"samana/patran",
 		"sevadar": "harjinder_das",
-		"areas":["samana","patran","ghagga","shutrana","ਸਮਾਣਾ","ਪਾਤੜਾਂ","kutbanpur","fatha majri","patra","ਪਾਤਰਾਂ","dugal khurd","dugal kalan","karhali","amamnagar"
+		"areas":["samana","patran","ghagga","shutrana","ਸਮਾਣਾ","ਪਾਤੜਾਂ","kutbanpur","fatha majri","patra","ਪਾਤਰਾਂ","dugal khurd","dugal kalan","karhali","amamnagar","147101",
+			"147105"
 		]
 	},
 	"3":{
@@ -27,19 +28,19 @@ area_data = {
 
 	"5":{
 		"division":"patiala_sanaur",
-		"sevadar": "harinder das",
-		"areas":["sanaur","sanour","markal colony","sanauri adda","tej bagh colony","sanaor"]
+		"sevadar": "harinder_das",
+		"areas":["sanaur","sanour","markal colony","sanauri adda","tej bagh colony","sanaor","147103"]
 	},
 
 	"6":{
 		"division":"patiala_university_area",
-		"sevadar": "jyoti das",
+		"sevadar": "jyoti_das",
 		"areas":["urban estate","phase 2","punjabi university","ਯੂਨੀਵਰਸਿਟੀ","chappar","bahadurgarh","bir bahadurgarh","raipur mandalan","raipur mandanla"]
 	},
 
 	"7":{
 		"division":"patiala_nabha_road",
-		"sevadar": "bechu das",
+		"sevadar": "bechu_das",
 		"areas":["tripuri","thapar","power colony","bhadson road","top khana gate","dharampura","jorian bhatian","doma wali gali","arna barna","top khana",
 			,"gher sodian","sirhindi bazar","rauni","kalyan","afsar colony","factory area","mohindra college","nabha road","147004","ranjit nagar","model town","jagat pura"
 			,"jagatpura","badungar","guru nanak nagar","dhanoura","dharmpura","ahluwalia street","ahluwalia road"
@@ -54,20 +55,20 @@ area_data = {
 
 	"9":{
 		"division":"patiala_pasiana_area",
-		"sevadar":"raghuvir das",
+		"sevadar":"raghuvir_das",
 		"areas":["pasiana","pasina","samana road","sangrur road","tarapore gate","rajendra road","tarapur gate","dhakraba"]
 
 	},
 
 	"10":{
 		"division":"patiala_devigarh_area",
-		"sevadar":"bintu das",
-		"areas":["devigarh","ਦੇਵੀਗੜ੍ਹ","dudhan sadhan","dudhan","massingan","kapoori","ਕਪੂਰੀ","ganeshpur","ਦੀਵਾਨਵਾਲਾ","diwanwala","ghuram","ਘੁਰਮ","gharam"]
+		"sevadar":"bintu_das",
+		"areas":["devigarh","ਦੇਵੀਗੜ੍ਹ","dudhan sadhan","dudhan","massingan","kapoori","ਕਪੂਰੀ","ganeshpur","ਦੀਵਾਨਵਾਲਾ","diwanwala","ghuram","ਘੁਰਮ","gharam","147111"]
 	},
 
 	"11":{
 		"division":"patiala_sirhind_road",
-		"sevadar":"rajesh das",
+		"sevadar":"rajesh_das",
 		"areas":["sirhind road","alipur","allipur","seona","ghuman nagar","bachittar nagar",
 			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point"]
 	}
